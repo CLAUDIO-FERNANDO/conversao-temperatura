@@ -1,12 +1,4 @@
-# FROM ubuntu
-# RUN apt-get update
-# RUN curl -fsSL https://deb.nodesource.com/setup_21.x | bash - &&\
-# apt-get install -y nodejs
-# WORKDIR /app
-# COPY . .
-# #RUN  apt-get install npm --yes
-# CMD [ "node","server.js" ]
-
+# app conversao 
 
 FROM node:12.18.1
  
